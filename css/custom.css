@@ -202,6 +202,7 @@
     margin-top: 41px;
 }
 .footer .part3{
+    display: block;
     width: 442px;
     margin-top: 41px;
     background:url(img/bg/footer-part-bg.png) repeat-y left center;

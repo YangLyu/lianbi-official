@@ -23,8 +23,8 @@ var jump_to_selector = function(){
         //console.log( $obj.length );
         if( $obj.length > 0 ){
             $("html,body").animate({scrollTop:$(jump_to).offset().top},500);
+            e.preventDefault();
         }
-        e.preventDefault();
     } );
 }
 
